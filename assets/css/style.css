@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-image: url("../images/connectwork.png");
+    color: #777;
+}
+
+html, body {
+    height: 100%;
+}
+
+.max-width {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+#profilePic {
+    max-width: 75px;
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+
+header {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 75px;
+}
+#home-link {
+    background-color: #4aaaa5;
+    line-height: 75px;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+#nav {
+    float: right;
+    line-height: 75px;
+}
+#nav li {
+    display: inline;
+    border-radius: 4px;
+}
+#nav li:nth-child(odd) {
+    padding: 20px;
+}
+#nav li:nth-child(odd):hover {
+    background-color: #ddd;
+}
+#nav a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #777;
+}
+
+.wrapper {
+    min-height: calc(100vh - 175px);
+    /* padding: 20px; */
+    /* margin-bottom: -50px; */
+    
+}
+
+
+
+#mainContent {
+    margin-top: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    line-height: 1.5em;
+    padding: 20px;
+}
+
+
+
+
+#nav_links {
+
+}
+
+
+#aboutMe {
+
+} 
+
+.footer {
+    background-color: #666;
+    border-top: 5px solid #4aaaa5;
+    height: 50px;
+}
