@@ -27,12 +27,17 @@ header {
     border: 1px solid #ccc;
     height: 75px;
 }
+
 #home-link {
+    display: inline-block;
     background-color: #4aaaa5;
-    line-height: 75px;
+    /* line-height: 80px; */
+    height: 35px;
     padding: 20px;
     color: #fff;
     text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 #nav {
     float: right;
@@ -69,13 +74,6 @@ header {
     border: 1px solid #ddd;
     line-height: 1.5em;
     padding: 20px;
-}
-
-
-
-
-#nav_links {
-
 }
 
 
