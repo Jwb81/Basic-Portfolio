@@ -11,53 +11,58 @@
 </head>
 
 <body>
-    <header>
-        <div class="max-width">
-            <a href="./index.html" id="home-link">Jason Barnett</a>
+    <div id="container">
 
-            <ul id="nav">
-                <li><a href="./index.html">About</a></li>
-                <li>|</li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li>|</li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
+        <div id="header">
+            <div class="max-width">
+                <a href="./index.html" id="home-link">Jason Barnett</a>
+    
+                <ul id="nav">
+                    <li><a href="./index.html">About</a></li>
+                    <li>|</li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li>|</li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div> 
+        </div> <!-- end #header-->
 
-    <div class="wrapper max-width">
+        <div id="body" class="max-width">
+            <div id="wrapper">
+                <h2>Contact</h2>
+                <br>
+                <hr style="height:2px;background-color:gray;">
+                <br>
+    
+                
+                <form id="contact-form">
+                    <label for="name">Name</label><br>
+                    <input class="contact-form-input" type="text" id="name" name="name" placeholder="John Smith"><br>
 
-            <div id="mainContent">
-                    <h2>Contact</h2>
+                    <br> 
+
+                    <label for="email">Email</label><br>
+                    <input class="contact-form-input" type="text" id="email" name="email" placeholder="example.gmail.com"><br>
+
                     <br>
-                    <hr style="height:2px;background-color:gray;">
+
+                    <label for="message">Message</label><br>
+                    <textarea class="contact-form-input" rows="6"  id="message" name="message" placeholder="Send us your message!"></textarea><br>
+
                     <br>
-        
                     
-                    <form id="contact-form">
-                        <label for="name">Name</label><br>
-                        <input class="contact-form-input" type="text" id="name" name="name" placeholder="John Smith"><br>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </div> <!-- end #wrapper -->
+        </div> <!-- end #body -->
 
-                        <br> 
+        <div id="footer">
+            <div class="max-width">
+                &copy; Jason Barnett 2018
+            </div>
+        </div> <!-- end #footer-->
 
-                        <label for="email">Email</label><br>
-                        <input class="contact-form-input" type="text" id="email" name="email" placeholder="example.gmail.com"><br>
-
-                        <br>
-
-                        <label for="message">Message</label><br>
-                        <textarea class="contact-form-input" rows="6"  id="message" name="message" placeholder="Send us your message!"></textarea><br>
-
-                        <br>
-                        
-                        <input type="submit" id="submit" value="Submit">
-                    </form>
-                </div> <!-- end #mainContent -->
-
-        <br>
-        <br>
-    </div> <!-- end #wrapper-->
-
-    <footer class="footer">Footer</footer>
+    </div> <!-- end #container -->
+   
 </body>
 </html>

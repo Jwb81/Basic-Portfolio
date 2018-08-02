@@ -71,8 +71,11 @@ header, #header {
 
 #footer {
     background-color: #666;
+    color: #aaa;
     border-top: 5px solid #4aaaa5;
     height: 50px;
+    line-height: 50px;
+    text-align: center;
 
     width: 100%;
     position: absolute;
@@ -112,9 +115,6 @@ header, #header {
     margin: 10px 10px 10px 0px;
 }
 
-#aboutMe {
-
-} 
 
 
 
@@ -154,6 +154,30 @@ header, #header {
 #portfolio-table img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     /* padding: 5px; */
     /* border: 1px solid #4aaaa5; */
+}
+
+.portfolio-image-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.portfolio-card {
+    box-shadow: 2px 3px 4px, -1px -1px 2px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.portfolio-card-div {
+    height: 100%;
+    position: relative;
 }
